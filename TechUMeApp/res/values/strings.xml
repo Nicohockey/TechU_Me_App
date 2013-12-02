@@ -4,5 +4,10 @@
     <string name="app_name">TechUMeApp</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="Use">Use</string>
+    <string name="Instrutions">Insturtions</string>
+    <string name="Exit">Exit</string>
+    <string name="Insert">Insert</string>
+    <string name="Enter">Enter</string>
 
 </resources>
