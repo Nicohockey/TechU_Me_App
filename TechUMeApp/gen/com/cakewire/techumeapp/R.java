@@ -34,7 +34,7 @@ public final class R {
         public static final int radio1=0x7f080007;
         public static final int radio2=0x7f080008;
         public static final int radio3=0x7f080009;
-        public static final int radioGroup1=0x7f080005;
+        public static final int radioGroup0=0x7f080005;
         public static final int textView1=0x7f080004;
     }
     public static final class layout {
