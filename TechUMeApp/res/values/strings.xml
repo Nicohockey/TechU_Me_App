@@ -9,5 +9,11 @@
     <string name="Exit">Exit</string>
     <string name="Insert">Insert</string>
     <string name="Enter">Enter</string>
+    <string name="Convert">Convert</string>
+    <string name="Vertex">Vertex</string>
+    <string name="v2s">Vertex to Standard</string>
+    <string name="F2theS">Factored to Standard</string>
+    <string name="V2f">Vertex to Factored</string>
+    <string name="F2DAV">Factored to Vertex</string>
 
 </resources>
