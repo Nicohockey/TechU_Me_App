@@ -17,7 +17,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="35dp"
-        android:text="@string/Use" />
+        android:text="@string/string_instruction" />
 
     <Button
         android:id="@+id/button1"
@@ -26,7 +26,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_marginBottom="63dp"
-        android:text="@string/Exit" />
+        android:text="@string/string_calculate" />
 
     <Button
         android:id="@+id/Instutions"
@@ -35,6 +35,6 @@
         android:layout_alignLeft="@+id/Use"
         android:layout_below="@+id/Use"
         android:layout_marginTop="94dp"
-        android:text="@string/Instrutions" />
+        android:text="@string/string_exit" />
 
 </RelativeLayout>

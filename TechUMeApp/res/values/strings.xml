@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">TechUMeApp</string>
+    <string name="app_name">Quadratic Assistant</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="Use">Use</string>
-    <string name="Instrutions">Insturtions</string>
-    <string name="Exit">Exit</string>
-    <string name="Insert">Insert</string>
-    <string name="Enter">Enter</string>
-    <string name="Convert">Convert</string>
-    <string name="Vertex">Vertex</string>
-    <string name="v2s">Vertex to Standard</string>
-    <string name="F2theS">Factored to Standard</string>
-    <string name="V2f">Vertex to Factored</string>
-    <string name="F2DAV">Factored to Vertex</string>
+    <string name="string_calculate">Calculate</string>
+    <string name="string_instruction">Insturtions</string>
+    <string name="string_exit">Exit</string>
+    <string name="string_insert">Insert</string>
+    <string name="string_enter">Enter</string>
+    <string name="string_convert">Convert</string>
+    <string name="string_vertex">Vertex</string>
+    <string name="string_v2s">Vertex to Standard</string>
+    <string name="string_f2s">Factored to Standard</string>
+    <string name="string_v2f">Vertex to Factored</string>
+    <string name="string_f2v">Factored to Vertex</string>
+    <string name="string_select">Select Calculation</string>
 
 </resources>
