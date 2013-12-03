@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/Use"
         android:layout_below="@+id/Use"
-        android:layout_marginTop="93dp"
+        android:layout_marginTop="94dp"
         android:text="@string/Instrutions" />
 
 </RelativeLayout>
