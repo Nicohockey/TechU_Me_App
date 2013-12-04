@@ -21,11 +21,23 @@
         android:text="@string/string_begincalculate" />
 
     <Button
+        android:id="@+id/instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/begincalculate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/round_button"
+        android:text="@string/string_instructions" />
+
+    <Button
         android:id="@+id/about_us"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="81dp"
+        android:layout_alignLeft="@+id/instructions"
+        android:layout_below="@+id/instructions"
+        android:layout_marginTop="78dp"
+        android:background="@drawable/round_button"
         android:text="@string/string_about_us" />
 
-    
 </RelativeLayout>
