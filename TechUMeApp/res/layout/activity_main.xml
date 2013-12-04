@@ -16,6 +16,7 @@
         android:layout_width="307dp"
         android:textColor="#fff"
         android:textSize="36sp"
+        android:padding="10dp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/instructions"
         android:layout_alignParentTop="true"
@@ -25,26 +26,27 @@
 
     <Button
         android:id="@+id/instructions"
-        android:textSize="36sp"
-        android:textColor="#fff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/begincalculate"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="72dp"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
         android:background="@drawable/round_button"
-        android:text="@string/string_instructions" />
+        android:text="@string/string_instructions"
+        android:textColor="#fff"
+        android:textSize="36sp" />
 
     <Button
         android:id="@+id/about_us"
-        android:textSize="36sp"
-        android:textColor="#fff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/instructions"
         android:layout_below="@+id/instructions"
-        android:layout_marginTop="78dp"
+        android:layout_marginTop="79dp"
+        android:padding="10dp"
         android:background="@drawable/round_button"
-        android:text="@string/string_about_us" />
+        android:text="@string/string_about_us"
+        android:textColor="#fff"
+        android:textSize="36sp" />
 
 </RelativeLayout>
