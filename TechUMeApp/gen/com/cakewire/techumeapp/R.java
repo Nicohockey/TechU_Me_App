@@ -22,14 +22,15 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
-        public static final int sum=0x7f020001;
+        public static final int round_button=0x7f020001;
+        public static final int sum=0x7f020002;
     }
     public static final class id {
-        public static final int Instutions=0x7f080003;
         public static final int RelativeLayout1=0x7f080000;
-        public static final int Use=0x7f080001;
+        public static final int about_us=0x7f080003;
         public static final int action_settings=0x7f08000a;
-        public static final int button1=0x7f080002;
+        public static final int begincalculate=0x7f080001;
+        public static final int instructions=0x7f080002;
         public static final int radio0=0x7f080006;
         public static final int radio1=0x7f080007;
         public static final int radio2=0x7f080008;
@@ -47,10 +48,10 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
+        public static final int string_about_us=0x7f050004;
         public static final int string_begincalculate=0x7f050002;
         public static final int string_convert=0x7f050007;
         public static final int string_enter=0x7f050006;
-        public static final int string_exit=0x7f050004;
         public static final int string_f2s=0x7f05000a;
         public static final int string_f2v=0x7f05000c;
         public static final int string_insert=0x7f050005;
