@@ -17,7 +17,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="35dp"
-        android:text="@string/string_instruction" />
+        android:text="@string/string_instructions" />
 
     <Button
         android:id="@+id/button1"
