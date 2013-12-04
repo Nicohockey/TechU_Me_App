@@ -14,6 +14,8 @@
     <Button
         android:id="@+id/begincalculate"
         android:layout_width="307dp"
+        android:textColor="#fff"
+        android:textSize="36sp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/instructions"
         android:layout_alignParentTop="true"
@@ -23,6 +25,8 @@
 
     <Button
         android:id="@+id/instructions"
+        android:textSize="36sp"
+        android:textColor="#fff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/begincalculate"
@@ -33,6 +37,8 @@
 
     <Button
         android:id="@+id/about_us"
+        android:textSize="36sp"
+        android:textColor="#fff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/instructions"
