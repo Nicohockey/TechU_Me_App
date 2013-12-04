@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text4instrutions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="	This application was made so that you would be able to solve 
+        quadratic equations. From converting them into all three of the forums
+        (Factored, Vertex and standard), you will be able to find parabolas. The forumla 
+        for vertex is: y=a(x-h)²+k, factored forum is: (A-X)(B-X), Standard forum is: Ax²+Bx+C.Using these
+        forumals to convert back and forth from the three forums you will be able to find the parabolas of the 
+        equation with assistant from this app
+        
+       
+         " />
+//we will fix the way that the text is on the screen after we have finished writting it all out.
+</LinearLayout>
