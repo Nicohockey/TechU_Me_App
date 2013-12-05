@@ -15,5 +15,7 @@
     <string name="string_v2f">Vertex to Factored</string>
     <string name="string_f2v">Factored to Vertex</string>
     <string name="string_select">Select Calculation</string>
+    <string name="string_s2v">Standard to Vertex</string>
+    <string name="string_s2f">Standard to Factored</string>
 
 </resources>

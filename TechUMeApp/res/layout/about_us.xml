@@ -1,14 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.93"
-        android:text="Hello, we are a computer science class which is made up of gr.10 and gr.11s. We created our own computer programming company, CakeWire and The App-etizers. We made an app that will help you convert factored, vertex and standard equationss"
-        android:textAppearance="?android:attr/textAppearanceMedium" /> 
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello, we are a computer science class which is made up of gr.10 and gr.11s. We created our own computer programming company, CakeWire and The App-etizers. We made an app that will help you convert factored, vertex and standard equationss"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RATE US"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RatingBar
+            android:id="@+id/ratingBar1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.56" />
+
+    </LinearLayout>
+
 </LinearLayout>
