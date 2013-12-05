@@ -46,19 +46,32 @@
                 android:id="@+id/radio1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/string_f2s" />
+                android:text="@string/string_v2f" />
 
             <RadioButton
                 android:id="@+id/radio2"
+                android:checked="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/string_v2f" />
+                android:text="@string/string_f2s" />
 
             <RadioButton
                 android:id="@+id/radio3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/string_f2v" />
+            
+             <RadioButton
+                android:id="@+id/radio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_s2v" />
+             
+             <RadioButton
+                android:id="@+id/radio5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_s2f" />
         </RadioGroup>
 
     </LinearLayout>
@@ -72,7 +85,7 @@
             android:scaleX="2"
             android:scaleY="1.2"
             android:layout_marginLeft="125dp"
-            android:layout_marginTop="157dp"
+            android:layout_marginTop="90dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
