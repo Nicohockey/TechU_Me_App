@@ -11,30 +11,34 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/Use"
+        android:id="@+id/begincalculate"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignLeft="@+id/instructions"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/round_button"
+        android:text="@string/string_begincalculate" />
+
+    <Button
+        android:id="@+id/instructions"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="35dp"
+        android:layout_below="@+id/begincalculate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/round_button"
         android:text="@string/string_instructions" />
 
     <Button
-        android:id="@+id/button1"
-        android:layout_width="307dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="63dp"
-        android:text="@string/string_calculate" />
-
-    <Button
-        android:id="@+id/Instutions"
+        android:id="@+id/about_us"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/Use"
-        android:layout_below="@+id/Use"
-        android:layout_marginTop="94dp"
-        android:text="@string/string_exit" />
+        android:layout_alignLeft="@+id/instructions"
+        android:layout_below="@+id/instructions"
+        android:layout_marginTop="78dp"
+        android:background="@drawable/round_button"
+        android:text="@string/string_about_us" />
 
 </RelativeLayout>
