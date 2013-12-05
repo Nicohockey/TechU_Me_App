@@ -9,6 +9,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0.93"
-        android:text="Hello, we are a computer science class which is made up of gr.10 and gr.11s. We created our own computer programming company, CakeWire and The App-etizers. We made an app that will help you convert factored, vertex and standard equations"
+        android:text="Hello, we are a computer science class which is made up of gr.10 and gr.11s. We created our own computer programming company, CakeWire and The App-etizers. We made an app that will help you convert factored, vertex and standard equationss"
         android:textAppearance="?android:attr/textAppearanceMedium" /> 
 </LinearLayout>
