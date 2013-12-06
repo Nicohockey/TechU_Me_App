@@ -22,6 +22,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.cakewire.techumeapp.SecondScreen"
+            android:label="@string/title_activity_second_screen" >
+        </activity>
+        <activity
+            android:name="com.cakewire.techumeapp.Instructions"
+            android:label="@string/title_activity_instructions" >
+        </activity>
+        <activity
+            android:name="com.cakewire.techumeapp.AboutUs"
+            android:label="@string/title_activity_about_us" >
+        </activity>
     </application>
 
 </manifest>

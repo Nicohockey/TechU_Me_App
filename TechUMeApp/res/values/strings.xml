@@ -17,5 +17,9 @@
     <string name="string_select">Select Calculation</string>
     <string name="string_s2v">Standard to Vertex</string>
     <string name="string_s2f">Standard to Factored</string>
+    <string name="title_activity_second_screen">SecondScreen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_instructions">Instructions</string>
+    <string name="title_activity_about_us">AboutUs</string>
 
 </resources>
