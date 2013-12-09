@@ -48,6 +48,6 @@
         android:background="@drawable/round_button"
         android:text="@string/string_about_us"
         android:textColor="#fff"
-        android:textSize="36sp" />
+        android:textSize="45sp" />
 
 </RelativeLayout>
