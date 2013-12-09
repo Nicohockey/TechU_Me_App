@@ -17,5 +17,12 @@
     <string name="string_select">Select Calculation</string>
     <string name="string_s2v">Standard to Vertex</string>
     <string name="string_s2f">Standard to Factored</string>
+    <string name="title_activity_second_screen">Calculate</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_instructions">Instructions</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="title_activity_splashscreen">Splashscreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 
 </resources>
