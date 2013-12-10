@@ -8,8 +8,7 @@
         android:id="@+id/text4instrutions"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text= "        This application, Quadratic assistant was created to help you convert quadratic equations, including all the three forms, Vertex, Factored and Standard.You should be able to convert back and forth very easily without any trouble. You would be able to find parabolas by only putting a few numbers in, and getting a y intercept.  The formula for vertex is :y=a(x-h)²+k, Factored form is :(a-x) (b-x), Standard form is :ax²+bx+c. After inputing all the numbers needed to convert, you figure out your answer without hardly doing anything.When you go into the tab labeled about us on the main screen, you will be able to find out everything needed to know about the creaters of this application and why it was made. To convert equations : go to the main screen and hit calculate, then select which forms you would like to convert an equation to and the enter your equation into the box and then click convert and you will get all the vairables
-        "
-         />
 
+        android:text= "        This application, Quadratic assistant was created to help you convert quadratic equations, including all the three forms, Vertex, Factored and Standard.You should be able to convert back and forth very easily without any trouble. You would be able to find parabolas by only putting a few numbers in, and getting a y intercept.  The formula for vertex is :y=a(x-h)²+k, Factored form is :(a-x) (b-x), Standard form is :ax²+bx+c. After inputing all the numbers needed to convert, you figure out your answer without hardly doing anything.When you go into the tab labeled about us on the main screen, you will be able to find out everything needed to know about the creaters of this application and why it was made. To convert equations : go to the main screen and hit calculate, then select which forms you would like to convert an equation to and the enter your equation into the box and then click convert and you will get all the vairables"
+         />
 </LinearLayout>
