@@ -26,5 +26,7 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_convert">Convert</string>
     <string name="string_equals">y=0</string>
+    <string name="CakeWire">CakeWire</string>
+    <string name="TheAppetizers">The App-etizers</string>
 
 </resources>
