@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/background_y"
+    android:background="@drawable/background_cal"
     android:orientation="vertical" >
 
     <LinearLayout
@@ -86,8 +86,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="125dp"
             android:layout_marginTop="91dp"
-            android:background="#F10FeF"
-            android:alpha="0.75"
+            android:alpha="1"
+            android:background="#FFD900"
+            android:hint="@string/string_equals"
+            android:onClick="Calculate"
             android:scaleX="2"
             android:scaleY="1.2" />
 
