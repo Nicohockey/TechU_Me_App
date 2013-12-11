@@ -11,58 +11,13 @@
 
     <TextView
         android:id="@+id/convert"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
-        android:text="@string/string_convert"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <EditText
-        android:id="@+id/Numberimput"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/convert"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="17dp"
-        android:ems="10"
-        android:inputType="number" >
-
-        <requestFocus />
-    </EditText>
-
-    <Button
-        android:id="@+id/button1"
-        style="?android:attr/buttonStyleSmall"
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/Numberimput"
-        android:layout_below="@+id/Numberimput"
-        android:text="@string/convert" />
-
-    <EditText
-        android:id="@+id/Answer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="112dp"
-        android:ems="10"
-        android:inputType="number" />
-
-    <Button
-        android:id="@+id/button_y"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/convert"
-        android:layout_marginBottom="45dp"
-        android:alpha="1"
-        android:background="#FFD900"
-        android:hint="@string/string_equals"
-        android:onClick="Calculate"
-        android:scaleX="2"
-        android:scaleY="1.2" />
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/string_convert" />
 
 </RelativeLayout>
