@@ -15,7 +15,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.cakewire.techumeapp.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,20 +25,24 @@
         </activity>
         <activity
             android:name="com.cakewire.techumeapp.SecondScreen"
-            android:label="@string/title_activity_second_screen" >
+            android:label="@string/title_activity_second_screen"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.cakewire.techumeapp.Instructions"
-            android:label="@string/title_activity_instructions" >
+            android:label="@string/title_activity_instructions"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.cakewire.techumeapp.AboutUs"
-            android:label="@string/title_activity_about_us" >
+            android:label="@string/title_activity_about_us"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.cakewire.techumeapp.Splashscreen"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_splashscreen"
+            android:screenOrientation="portrait"
             android:theme="@style/FullscreenTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -47,7 +52,12 @@
         </activity>
         <activity
             android:name="com.cakewire.techumeapp.Convert"
-            android:label="@string/title_activity_convert" >
+            android:label="@string/title_activity_convert"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.cakewire.techumeapp.CalcResults"
+            android:label="@string/title_activity_calc_results" >
         </activity>
     </application>
 

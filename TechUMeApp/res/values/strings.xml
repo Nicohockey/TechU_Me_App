@@ -29,5 +29,6 @@
     <string name="CakeWire">CakeWire</string>
     <string name="TheAppetizers">The App-etizers</string>
     <string name="convert">Convert</string>
+    <string name="title_activity_calc_results">CalcResults</string>
 
 </resources>
