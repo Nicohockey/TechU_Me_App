@@ -82,13 +82,15 @@
 
         <Button
             android:id="@+id/button_y"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:text="@string/string_equals"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="125dp"
             android:layout_marginTop="91dp"
-            android:alpha="1"
             android:background="#FFD900"
-            android:hint="@string/string_equals"
             android:onClick="Calculate"
             android:scaleX="2"
             android:scaleY="1.2" />
