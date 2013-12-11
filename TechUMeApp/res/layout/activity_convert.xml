@@ -37,8 +37,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/Numberimput"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="132dp"
+        android:layout_below="@+id/Numberimput"
+        android:layout_marginTop="55dp"
         android:ems="10"
         android:inputType="number" />
 
