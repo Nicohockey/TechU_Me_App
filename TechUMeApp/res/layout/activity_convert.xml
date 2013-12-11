@@ -21,4 +21,87 @@
         android:layout_centerHorizontal="true"
         android:text="@string/string_convert" />
 
+    <TextView
+        android:id="@+id/numA"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/convert"
+        android:layout_below="@+id/convert"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/string_numA" />
+
+    <TextView
+        android:id="@+id/numB"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/numA"
+        android:layout_below="@+id/numA"
+        android:layout_marginTop="27dp"
+        android:text="@string/string_numB" />
+
+    <TextView
+        android:id="@+id/numC"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/numB"
+        android:layout_below="@+id/numB"
+        android:layout_marginTop="31dp"
+        android:text="@string/string_numC" />
+
+    <EditText
+        android:id="@+id/numA_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/numA"
+        android:layout_alignBottom="@+id/numA"
+        android:layout_marginLeft="37dp"
+        android:layout_toRightOf="@+id/numA"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/numB_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/numB"
+        android:layout_alignBottom="@+id/numB"
+        android:layout_alignLeft="@+id/numA_edit"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/numC_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/numC"
+        android:layout_alignBottom="@+id/numC"
+        android:layout_alignLeft="@+id/numB_edit"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button_calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/check_showWork"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="@string/title_activity_second_screen" />
+
+    <CheckBox
+        android:id="@+id/check_showWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:text="@string/string_showWork" />
+
 </RelativeLayout>

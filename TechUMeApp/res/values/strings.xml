@@ -30,5 +30,9 @@
     <string name="TheAppetizers">App-etizers</string>
     <string name="convert">Convert</string>
     <string name="title_activity_calc_results">CalcResults</string>
+    <string name="string_numA">a:</string>
+    <string name="string_numB">b:</string>
+    <string name="string_numC">c:</string>
+    <string name="string_showWork">Show Work</string>
 
 </resources>
