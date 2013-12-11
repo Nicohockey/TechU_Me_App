@@ -12,7 +12,7 @@ public class Convert extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_convert);
 		TextView convert = (TextView) findViewById(R.id.convert);
-		convert.setText(getIntent().getStringExtra(SecondScreen.EXTRA_MESSAGE));
+		convert.setText(getIntent().getStringExtra(SecondScreen.choice));
 	}
 
 	@Override
