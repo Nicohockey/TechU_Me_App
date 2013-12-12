@@ -34,23 +34,23 @@
 
     <TextView
         android:id="@+id/numB"
-        android:textSize="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/numA"
         android:layout_below="@+id/numA"
         android:layout_marginTop="27dp"
-        android:text="@string/string_numB" />
+        android:text="@string/string_numB"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/numC"
-        android:textSize="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/numB"
         android:layout_below="@+id/numB"
         android:layout_marginTop="31dp"
-        android:text="@string/string_numC" />
+        android:text="@string/string_numC"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/numA_edit"
@@ -61,7 +61,8 @@
         android:layout_marginLeft="37dp"
         android:layout_toRightOf="@+id/numA"
         android:ems="10"
-        android:inputType="number" >
+        android:hint="@string/string_valueEnter"
+        android:inputType="number|numberSigned|numberDecimal" >
 
         <requestFocus />
     </EditText>
@@ -74,7 +75,8 @@
         android:layout_alignBottom="@+id/numB"
         android:layout_alignLeft="@+id/numA_edit"
         android:ems="10"
-        android:inputType="number" />
+        android:hint="@string/string_valueEnter"
+        android:inputType="number|numberSigned|numberDecimal" />
 
     <EditText
         android:id="@+id/numC_edit"
@@ -84,7 +86,8 @@
         android:layout_alignBottom="@+id/numC"
         android:layout_alignLeft="@+id/numB_edit"
         android:ems="10"
-        android:inputType="number" />
+        android:hint="@string/string_valueEnter"
+        android:inputType="number|numberSigned|numberDecimal" />
 
     <Button
         android:id="@+id/button_calc"

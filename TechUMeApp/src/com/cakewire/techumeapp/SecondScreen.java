@@ -10,7 +10,7 @@ import android.widget.RadioGroup;
 
 public class SecondScreen extends Activity {
 
-	public final static String choice = "com.cakewire.techumeapp.MESSAGE";
+	public final static String EXTRA_MESSAGE = "com.cakewire.techumeapp.MESSAGE";
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +31,7 @@ public class SecondScreen extends Activity {
 		int selected = selectGroup.getCheckedRadioButtonId();
 		RadioButton selectButton = (RadioButton)findViewById(selected);
 		String selectText = (String) selectButton.getText();
-		intent.putExtra(choice, selectText);
+		intent.putExtra(EXTRA_MESSAGE, selectText);
 		startActivity(intent);
 	}
 

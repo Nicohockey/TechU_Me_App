@@ -36,7 +36,8 @@
     <string name="string_showWork">Show Work</string>
     <string name="string_numH">h:</string>
     <string name="string_numK">k:</string>
-    <string name="string_x1">x 1:</string>
-    <string name="string_x2">x 2:</string>
+    <string name="string_x1">x1:</string>
+    <string name="string_x2">x2:</string>
+    <string name="string_valueEnter">Enter Value Here</string>
 
 </resources>
