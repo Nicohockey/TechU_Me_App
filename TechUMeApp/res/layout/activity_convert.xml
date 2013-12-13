@@ -2,91 +2,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_cal"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/background_cal"
     tools:context=".Convert" >
 
     <TextView
         android:id="@+id/convert"
-        android:gravity="center"
-        android:layout_marginTop="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textStyle="bold"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/string_convert" />
-
-    <TextView
-        android:id="@+id/numA"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/string_convert"
         android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/numA_Field"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/convert"
         android:layout_below="@+id/convert"
-        android:layout_marginLeft="59dp"
-        android:layout_marginTop="30dp"
-        android:text="@string/string_numA" />
-
-    <TextView
-        android:id="@+id/numB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/numA"
-        android:layout_below="@+id/numA"
-        android:layout_marginTop="27dp"
-        android:text="@string/string_numB"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/numC"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/numB"
-        android:layout_below="@+id/numB"
-        android:layout_marginTop="31dp"
-        android:text="@string/string_numC"
-        android:textSize="20sp" />
-
-    <EditText
-        android:id="@+id/numA_edit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/numA"
-        android:layout_alignBottom="@+id/numA"
-        android:layout_marginLeft="37dp"
-        android:layout_toRightOf="@+id/numA"
+        android:layout_centerHorizontal="true"
         android:ems="10"
-        android:hint="@string/string_valueEnter"
-        android:inputType="number|numberSigned|numberDecimal" >
-
-        <requestFocus />
-    </EditText>
-
-    <EditText
-        android:id="@+id/numB_edit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/numB"
-        android:layout_alignBottom="@+id/numB"
-        android:layout_alignLeft="@+id/numA_edit"
-        android:ems="10"
-        android:hint="@string/string_valueEnter"
+        android:hint="Enter an A Value"
         android:inputType="number|numberSigned|numberDecimal" />
 
     <EditText
-        android:id="@+id/numC_edit"
+        android:id="@+id/numB_Field"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/numC"
-        android:layout_alignBottom="@+id/numC"
-        android:layout_alignLeft="@+id/numB_edit"
+        android:layout_alignLeft="@+id/numA_Field"
+        android:layout_below="@+id/numA_Field"
         android:ems="10"
-        android:hint="@string/string_valueEnter"
+        android:hint="Enter an B Value"
+        android:inputType="number|numberSigned|numberDecimal" />
+
+    <EditText
+        android:id="@+id/numC_Field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/numB_Field"
+        android:layout_below="@+id/numB_Field"
+        android:ems="10"
+        android:hint="Enter an C Value"
         android:inputType="number|numberSigned|numberDecimal" />
 
     <Button
@@ -94,8 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/check_showWork"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="28dp"
+        android:layout_alignRight="@+id/check_showWork"
         android:text="@string/title_activity_second_screen" />
 
     <CheckBox
@@ -104,7 +65,31 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="44dp"
         android:text="@string/string_showWork" />
+
+    <EditText
+        android:id="@+id/numX1_Field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/numC_Field"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="18dp"
+        android:ems="10"
+        android:hint="Enter the first zero"
+        android:inputType="number|numberSigned|numberDecimal" />
+
+    <EditText
+        android:id="@+id/numX2_Field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/numX1_Field"
+        android:layout_below="@+id/numX1_Field"
+        android:ems="10"
+        android:hint="Enter the second zero"
+        android:inputType="number|numberSigned|numberDecimal" >
+
+        <requestFocus />
+    </EditText>
 
 </RelativeLayout>
