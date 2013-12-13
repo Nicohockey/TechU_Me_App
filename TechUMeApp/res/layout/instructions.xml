@@ -4,14 +4,14 @@
     android:layout_height="match_parent"
     android:background="@drawable/clip">
 
-
-
-    <TextView
+    <EditText
         android:id="@+id/text4instrutions"
-        android:layout_width="match_parent"
-        android:layout_height="98dp"
-        android:text="        The formulas for the three forms are as followed, vertex is :y=a(x-h)²+k, Factored form is :(a-x) (b-x), Standard form is :ax²+bx+c. Press Calculate to start converting equations. Select form and enter numbers and convert."
-    />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="  The formulas for the three forms are as followed, vertex is :y=a(x-h)²+k, Factored form is :(a-x) (b-x), Standard form is :ax²+bx+c. Press Calculate to start converting equations. Select form and enter numbers and convert." >
 
+        <requestFocus />
+    </EditText>
 
 </LinearLayout>
