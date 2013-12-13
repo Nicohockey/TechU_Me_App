@@ -14,8 +14,8 @@ public class Convert extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_convert);
 		TextView convert = (TextView) findViewById(R.id.convert);
-		convert.setText(getIntent().getStringExtra(SecondScreen.EXTRA_MESSAGE));
-		String[] words = getIntent().getStringExtra(SecondScreen.EXTRA_MESSAGE).split(" ");
+		convert.setText(getIntent().getStringExtra(SecondScreen.choice));
+		String[] words = getIntent().getStringExtra(SecondScreen.choice).split(" ");
 		String option = words[0];
 		
 		if (option.equalsIgnoreCase("factored")){
@@ -39,6 +39,7 @@ public class Convert extends Activity {
 			
 			
 		}
+		convert.setText(getIntent().getStringExtra(SecondScreen.choice));
 	}
 
 	private void hideText(int numField) {
