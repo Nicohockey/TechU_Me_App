@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="  The formulas for the three forms are as followed, vertex is :y=a(x-h)²+k, Factored form is :(a-x) (b-x), Standard form is :ax²+bx+c. Press Calculate to start converting equations. Select form and enter numbers and convert." >
+        android:text="  The formulas for the three forms are as followed, vertex is :y=a(x-h)²+k, Factored form is :(a-x) (b-x), Standard form is :ax²+bx+c. Press Calculate to start converting equations. Select form and enter numbers and then convert." >
 
         <requestFocus />
     </EditText>
