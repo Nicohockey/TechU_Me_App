@@ -2,7 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:background="@drawable/clip">
+
+
 
     <TextView
         android:id="@+id/text4instrutions"
@@ -10,5 +12,6 @@
         android:layout_height="98dp"
         android:text="        The formulas for the three forms are as followed, vertex is :y=a(x-h)²+k, Factored form is :(a-x) (b-x), Standard form is :ax²+bx+c. Press Calculate to start converting equations. Select form and enter numbers and convert."
     />
+
 
 </LinearLayout>
