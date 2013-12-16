@@ -24,7 +24,10 @@ public class Convert extends Activity {
 			hideText(R.id.numC_Field);
 			
 			showText(R.id.numX1_Field);
-			showText(R.id.numX1_Field);
+			showText(R.id.numX2_Field);
+			
+			hideText(R.id.numH_Field);
+			hideText(R.id.numK_Field);
 		}
 		else if (option.equalsIgnoreCase("standard")){
 			showText(R.id.numA_Field);
@@ -32,11 +35,21 @@ public class Convert extends Activity {
 			showText(R.id.numC_Field);
 			
 			hideText(R.id.numX1_Field);
-			hideText(R.id.numX1_Field);
+			hideText(R.id.numX2_Field);
+			
+			hideText(R.id.numH_Field);
+			hideText(R.id.numK_Field);
 		}
 		else if (option.equalsIgnoreCase("vertex")){
+			hideText(R.id.numA_Field);
+			hideText(R.id.numB_Field);
+			hideText(R.id.numC_Field);
 			
+			hideText(R.id.numX1_Field);
+			hideText(R.id.numX2_Field);
 			
+			showText(R.id.numH_Field);
+			showText(R.id.numK_Field);
 			
 		}
 		convert.setText(getIntent().getStringExtra(SecondScreen.choice));
