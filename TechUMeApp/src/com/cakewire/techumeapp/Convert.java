@@ -21,60 +21,36 @@ public class Convert extends Activity {
 		if (option.equalsIgnoreCase("factored")){
 			showText(R.id.numA_Field);
 			hideText(R.id.numB_Field);
-			hideText(R.id.numB_text);
 			hideText(R.id.numC_Field);
-			hideText(R.id.numC_text);
 			
 			showText(R.id.numX1_Field);
-			showText(R.id.numX1_text);
-			showText(R.id.numX1_textSUB);
 			showText(R.id.numX2_Field);
-			showText(R.id.numX2_text);
-			showText(R.id.numX2_textSUB);
 			
 			hideText(R.id.numH_Field);
-			hideText(R.id.numH_text);
 			hideText(R.id.numK_Field);
-			hideText(R.id.numK_text);
 		}
 		else if (option.equalsIgnoreCase("standard")){
 			hideText(R.id.numA_Field);
-			hideText(R.id.numA_text);
 			hideText(R.id.numB_Field);
-			hideText(R.id.numB_text);
 			hideText(R.id.numC_Field);
-			hideText(R.id.numC_text);
 			
 			hideText(R.id.numX1_Field);
-			hideText(R.id.numX1_text);
-			hideText(R.id.numX1_textSUB);
 			hideText(R.id.numX2_Field);
-			hideText(R.id.numX2_text);
-			hideText(R.id.numX2_textSUB);
+
 			
 			hideText(R.id.numH_Field);
-			hideText(R.id.numH_text);
 			hideText(R.id.numK_Field);
-			hideText(R.id.numK_text);
 		}
 		else if (option.equalsIgnoreCase("vertex")){
 			showText(R.id.numA_Field);
 			hideText(R.id.numB_Field);
-			hideText(R.id.numB_text);
 			hideText(R.id.numC_Field);
-			hideText(R.id.numC_text);
 			
 			hideText(R.id.numX1_Field);
-			hideText(R.id.numX1_text);
-			hideText(R.id.numX1_textSUB);
 			hideText(R.id.numX2_Field);
-			hideText(R.id.numX2_text);
-			hideText(R.id.numX2_textSUB);
 			
 			showText(R.id.numH_Field);
-			showText(R.id.numH_text);
 			showText(R.id.numK_Field);
-			showText(R.id.numK_text);
 			
 		}
 		convert.setText(getIntent().getStringExtra(SecondScreen.choice));
