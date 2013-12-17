@@ -60,6 +60,7 @@
         android:text="@string/title_activity_second_screen" />
 
     <CheckBox
+        android:checked="true"
         android:id="@+id/check_showWork"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
