@@ -19,7 +19,6 @@ public class Convert extends Activity {
 		String option = words[0];
 		
 		if (option.equalsIgnoreCase("factored")){
-			showText(R.id.numA_Field);
 			hideText(R.id.numB_Field);
 			hideText(R.id.numC_Field);
 			
@@ -30,9 +29,8 @@ public class Convert extends Activity {
 			hideText(R.id.numK_Field);
 		}
 		else if (option.equalsIgnoreCase("standard")){
-			hideText(R.id.numA_Field);
-			hideText(R.id.numB_Field);
-			hideText(R.id.numC_Field);
+			showText(R.id.numB_Field);
+			showText(R.id.numC_Field);
 			
 			hideText(R.id.numX1_Field);
 			hideText(R.id.numX2_Field);
@@ -42,7 +40,6 @@ public class Convert extends Activity {
 			hideText(R.id.numK_Field);
 		}
 		else if (option.equalsIgnoreCase("vertex")){
-			showText(R.id.numA_Field);
 			hideText(R.id.numB_Field);
 			hideText(R.id.numC_Field);
 			
