@@ -104,7 +104,6 @@
 
     <EditText
         android:id="@+id/numX1_Field"
-        android:textSize="22sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/numA_Field"
