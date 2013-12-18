@@ -26,9 +26,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/convert"
-        android:layout_centerHorizontal="true"
+        android:layout_alignRight="@+id/convert"
         android:ems="10"
-        android:hint="Enter an A Value"
+        android:hint="@string/string_valueEnter"
         android:inputType="number|numberSigned|numberDecimal" />
 
     <EditText
@@ -38,7 +38,7 @@
         android:layout_alignLeft="@+id/numA_Field"
         android:layout_below="@+id/numA_Field"
         android:ems="10"
-        android:hint="Enter an B Value"
+        android:hint="@string/string_valueEnter"
         android:inputType="number|numberSigned|numberDecimal" />
 
     <EditText
@@ -48,7 +48,7 @@
         android:layout_alignLeft="@+id/numB_Field"
         android:layout_below="@+id/numB_Field"
         android:ems="10"
-        android:hint="Enter an C Value"
+        android:hint="@string/string_valueEnter"
         android:inputType="number|numberSigned|numberDecimal" />
 
     <Button
@@ -60,6 +60,7 @@
         android:text="@string/title_activity_second_screen" />
 
     <CheckBox
+        android:checked="true"
         android:id="@+id/check_showWork"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -72,30 +73,30 @@
         android:id="@+id/numX2_Field"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/numC_Field"
+        android:layout_alignLeft="@+id/numX1_Field"
         android:layout_below="@+id/numX1_Field"
         android:ems="10"
-        android:hint="Enter the second zero"
+        android:hint="@string/string_valueEnter"
         android:inputType="number|numberSigned|numberDecimal" />
 
     <EditText
         android:id="@+id/numK_Field"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/numX2_Field"
+        android:layout_alignLeft="@+id/numH_Field"
         android:layout_below="@+id/numH_Field"
         android:ems="10"
-        android:hint="Enter an K Value"
+        android:hint="@string/string_valueEnter"
         android:inputType="number|numberSigned|numberDecimal" />
 
     <EditText
         android:id="@+id/numH_Field"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/numC_Field"
-        android:layout_below="@+id/numC_Field"
+        android:layout_alignLeft="@+id/numA_Field"
+        android:layout_below="@+id/numA_Field"
         android:ems="10"
-        android:hint="Enter an H Value"
+        android:hint="@string/string_valueEnter"
         android:inputType="number|numberSigned|numberDecimal" >
 
         <requestFocus />
@@ -103,12 +104,83 @@
 
     <EditText
         android:id="@+id/numX1_Field"
+        android:textSize="22sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/numX2_Field"
-        android:layout_below="@+id/numK_Field"
+        android:layout_alignLeft="@+id/numA_Field"
+        android:layout_below="@+id/numA_Field"
         android:ems="10"
-        android:hint="Enter the first zero"
+        android:hint="@string/string_valueEnter"
         android:inputType="number|numberSigned|numberDecimal" />
+
+    <TextView
+        android:id="@+id/numA_text"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/numA_Field"
+        android:layout_alignBottom="@+id/numA_Field"
+        android:layout_toLeftOf="@+id/numA_Field"
+        android:text="@string/string_numA" />
+    
+    <TextView
+        android:id="@+id/numB_text"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/numB_Field"
+        android:layout_alignBottom="@+id/numB_Field"
+        android:layout_toLeftOf="@+id/numB_Field"
+        android:text="@string/string_numB" />
+    
+    <TextView
+        android:id="@+id/numC_text"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/numC_Field"
+        android:layout_alignBottom="@+id/numC_Field"
+        android:layout_toLeftOf="@+id/numC_Field"
+        android:text="@string/string_numC" />
+    
+    <TextView
+        android:id="@+id/numH_text"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/numH_Field"
+        android:layout_alignBottom="@+id/numH_Field"
+        android:layout_toLeftOf="@+id/numH_Field"
+        android:text="@string/string_numH" />
+    
+    <TextView
+        android:id="@+id/numK_text"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/numK_Field"
+        android:layout_alignBottom="@+id/numK_Field"
+        android:layout_toLeftOf="@+id/numK_Field"
+        android:text="@string/string_numK" />
+    
+    <TextView
+        android:id="@+id/numX1_text"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/numX1_Field"
+        android:layout_alignBottom="@+id/numX1_Field"
+        android:layout_toLeftOf="@+id/numX1_Field"
+        android:text="@string/string_numX" />
+    
+    <TextView
+        android:id="@+id/numX2_text"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/numX2_Field"
+        android:layout_alignBottom="@+id/numX2_Field"
+        android:layout_toLeftOf="@+id/numX2_Field"
+        android:text="@string/string_numX" />
 
 </RelativeLayout>

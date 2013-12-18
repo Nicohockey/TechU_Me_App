@@ -25,7 +25,7 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_convert">Convert</string>
-    <string name="string_equals">y=0</string>
+    <string name="string_equals">Select</string>
     <string name="CakeWire">CakeWire</string>
     <string name="TheAppetizers">App-etizers</string>
     <string name="convert">Convert</string>
@@ -36,7 +36,7 @@
     <string name="string_showWork">Show Work</string>
     <string name="string_numH">h:</string>
     <string name="string_numK">k:</string>
-    <string name="string_x">x  :</string>
+    <string name="string_numX">x  :</string>
     <string name="string_valueEnter">Enter Value Here</string>
     <string name="string_one">1</string>
     <string name="string_two">2</string>
