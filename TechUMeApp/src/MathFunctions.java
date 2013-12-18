@@ -1,9 +1,9 @@
 
 public class MathFunctions {
-	public String getVertexToStandard(int a, int H, int K){
-		int A;
-		int B;
-		int C;
+	public String getVertexToStandard(double a, double H, double K){
+		double A;
+		double B;
+		double C;
 		
 		B= H*2;
 		C= (int)Math.pow(H, 2);
@@ -12,38 +12,38 @@ public class MathFunctions {
 		C= C*a;
 		C= C+K;
 		//Print numbers back and insert into string with ax^2+bx+c
-			
-			
-		return Ans;
+		
+		return A + ", " + B + ", " + C;
 	}
 	
-	public String getVertexToFactored(int a, int H, int K){
-		int s;
-		int t;
-		int A;
-		int B;
-		int C;
+	public String getVertexToFactored(double a, double H, double K){
+		double s = 0;
+		double t = 0;
+		double A;
+		double B;
+		double C;
 		
 		//converting to standard
-		B= H*2;
-		C= (int)Math.pow(H, 2);
-		A=a;
-		B= B*a;
-		C= C*a;
-		C= C+K;
-		//converting to factored from standard
+		String standard = getVertexToStandard(a, H, K);
+		String[] StandardInfo = standard.split(", ");
+		A = Double.parseDouble(StandardInfo[0]);
+		B = Double.parseDouble(StandardInfo[1]);
+		C = Double.parseDouble(StandardInfo[2]);
 		
+		//converting to factored from standard
+		getStandardToFactored(A, B, C);
+	
 	
 		//Print numbers back and insert into string with a(x-s)(x-t)
 			
 			
-		return Ans;
+		return a + ", " + s+ ", " + t;
 	}
 	
-	public String getFactoredToStandard(int a, int s, int t){
-		int A;
-		int B;
-		int C;
+	public String getFactoredToStandard(double a, double s, double t){
+		double A=a;
+		double B;
+		double C;
 		
 		B= (s+t)*a;
 		C= s*t*a;
@@ -51,15 +51,14 @@ public class MathFunctions {
 		//Print numbers back and insert into string with ax^2+bx+c
 			
 			
-		return Ans;
+		return A + ", " + B + ", " + C;
 	}
 
-	public String getFactoredToVertex(int a, int s, int t){
-		int H;
-		int K;
-		int x1;
-		int x2;
-		
+	public String getFactoredToVertex(double a, double s, double t){
+		double H;
+		double K;
+		double x1;
+		double x2;
 		
 		H= (s+t)/2;
 		x1=H;
@@ -71,26 +70,39 @@ public class MathFunctions {
 		//Print numbers back and insert into string with a(x-H)^2+K
 			
 			
-		return Ans;
+		return a + ", " + H+ ", " + K;
 	}
 	
-	public String getStandardToFactored(int a, int s, int t){
-		int H;
-		int K;
+	public String getStandardToFactored(double A, double B, double C){
+		double a=A;
+		double s;
+		double t;
 		
 		
+		double sqB = Math.pow(B, 2);// We square numB
+		  double Cal4AC = (4 * A * C);// We multiply 4 by numA and numC  - 4AC
+		  double inner = sqB - Cal4AC;// We combine the values for B^2-4AC
+		  /* 
+		   * Total Explanation
+		   * We will solve for the Square root first, since it is shared
+		   * between the two zero's equations.
+		   */
+		  inner = Math.sqrt(inner);// We square root the result of B^2 - 4AC
+		  s= -B + inner;// We combine -B + InnerVar(Refer to above calculation of B^2-4AC)
+		  t= -B - inner;// We combine -B + InnerVar(Refer to above calculation of B^2-4AC)
 		
 		//Print numbers back and insert into string with a(x-s)(x-t)
 			
-			
-		return Ans;
+		  return a + ", " + s+ ", " + t;	
+		  
 	}
 	
-	public String getStandardToVertex(int A, int B, int C){
-		int H;
-		int K;
-		int b2;
-		int b3;
+	public String getStandardToVertex(double A, double B, double C){
+		double H;
+		double K;
+		double b2;
+		double b3;
+		double a=A;
 		
 		B= B/A;
 		b2= (B/2); 
@@ -107,7 +119,7 @@ public class MathFunctions {
 		//Print numbers back and insert into string with a(x-H)^2+K
 			
 			
-		return Ans;
+		return a + ", " + H+ ", " + K;
 	}
 }
 
