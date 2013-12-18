@@ -1,3 +1,4 @@
+package com.cakewire.techumeapp;
 
 public class MathFunctions {
 	public String getVertexToStandard(double a, double H, double K){
