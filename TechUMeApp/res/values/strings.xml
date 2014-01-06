@@ -40,5 +40,6 @@
     <string name="string_valueEnter">Enter Value Here</string>
     <string name="string_one">1</string>
     <string name="string_two">2</string>
+    <string name="Instructions">The formulas for the three forms are as followed, vertex is :y=a(x-h)²+k, Factored form is :(a-x) (b-x), Standard form is :ax²+bx+c. Press Calculate to start converting equations. Select form and enter numbers and then convert.</string>
 
 </resources>

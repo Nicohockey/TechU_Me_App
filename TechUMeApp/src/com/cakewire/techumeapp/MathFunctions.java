@@ -94,7 +94,7 @@ public class MathFunctions {
 		
 		//Print numbers back and insert into string with a(x-s)(x-t)
 			
-		  return a + ", " + s+ ", " + t;	
+		  return a + ", " + s+ ", " + t;
 		  
 	}
 	
@@ -118,8 +118,7 @@ public class MathFunctions {
 		K=b3+C;
 		
 		//Print numbers back and insert into string with a(x-H)^2+K
-			
-			
+		
 		return a + ", " + H+ ", " + K;
 	}
 }

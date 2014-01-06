@@ -182,4 +182,20 @@
         android:layout_toLeftOf="@+id/numX2_Field"
         android:text="@string/string_numX" />
 
+    <TextView
+        android:id="@+id/numX1_SUBtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/numX1_Field"
+        android:layout_alignRight="@+id/numX1_text"
+        android:text="@string/string_one" />
+
+    <TextView
+        android:id="@+id/numX2_SUBtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/numX2_Field"
+        android:layout_alignRight="@+id/numX2_text"
+        android:text="@string/string_two" />
+
 </RelativeLayout>
